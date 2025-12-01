@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 100% 98%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 199 89% 48%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 216 33% 91%;
+    --muted-foreground: 215 19% 35%;
+    --accent: 267 83% 67%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 221 83% 53%;
+    --chart-1: 221 83% 53%;
+    --chart-2: 199 89% 48%;
+    --chart-3: 267 83% 67%;
+    --chart-4: 31 95% 65%;
+    --chart-5: 152 76% 40%;
+    --radius: 0.65rem;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 16%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 16%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 221 39% 20%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 222 47% 20%;
+    --muted-foreground: 214 32% 80%;
+    --accent: 267 83% 67%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 222 47% 25%;
+    --input: 222 47% 25%;
+    --ring: 221 83% 53%;
+    --chart-1: 210 90% 60%;
+    --chart-2: 199 89% 48%;
+    --chart-3: 267 83% 67%;
+    --chart-4: 31 95% 65%;
+    --chart-5: 152 76% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.25), transparent 55%),
+      radial-gradient(circle at 80% 0%, rgba(14, 165, 233, 0.2), transparent 50%),
+      linear-gradient(180deg, #f8fbff 0%, #eef4ff 45%, #f7f9ff 100%);
+  }
+}
