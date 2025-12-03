@@ -2,10 +2,10 @@ import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "luc
 
 const footerLinks = {
   company: [
-    { name: "Tentang Kami", href: "#about" },
-    { name: "Layanan", href: "#services" },
+    { name: "About Us", href: "#about" },
+    { name: "Services", href: "#services" },
     { name: "Portfolio", href: "#portfolio" },
-    { name: "Karir", href: "#" },
+    { name: "Careers", href: "#" },
   ],
   services: [
     { name: "Web Development", href: "#services" },
@@ -14,7 +14,7 @@ const footerLinks = {
     { name: "Digital Marketing", href: "#services" },
   ],
   contact: [
-    { icon: Mail, text: "info@techvision.com" },
+    { icon: Mail, text: "hello@rifinity.com" },
     { icon: Phone, text: "+62 812 3456 7890" },
     { icon: MapPin, text: "Jakarta, Indonesia" },
   ],
@@ -33,9 +33,9 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 md:px-20 py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
-            <h3 className="text-2xl font-bold text-white mb-4">TechVision</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Rifinity</h3>
             <p className="text-white/70 leading-relaxed mb-6">
-              Solusi digital terpercaya untuk mengembangkan bisnis Anda di era modern.
+              Trusted digital solutions to help your business grow in the modern era.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -52,7 +52,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-lg mb-4">Perusahaan</h4>
+            <h4 className="font-semibold text-lg mb-4">Company</h4>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
@@ -65,7 +65,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-lg mb-4">Layanan</h4>
+            <h4 className="font-semibold text-lg mb-4">Services</h4>
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
                 <li key={link.name}>
@@ -78,7 +78,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-lg mb-4">Kontak</h4>
+            <h4 className="font-semibold text-lg mb-4">Contact</h4>
             <ul className="space-y-4">
               {footerLinks.contact.map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-white/70">
@@ -91,7 +91,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-8 text-center text-white/60">
-          <p>&copy; {new Date().getFullYear()} TechVision. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Rifinity. All rights reserved.</p>
         </div>
       </div>
     </footer>

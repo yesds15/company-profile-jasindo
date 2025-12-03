@@ -35,7 +35,7 @@ export function Contact() {
           <div className="space-y-4 text-center">
             <h2 className="text-4xl md:text-5xl font-bold">Get In Touch</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
-              Punya proyek atau ingin bekerja sama? Mari diskusi!
+              Have a project or want to collaborate? Let's discuss!
             </p>
           </div>
 
@@ -63,9 +63,9 @@ export function Contact() {
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <label htmlFor="name" className="text-sm font-medium">
-                      Nama
+                      Name
                     </label>
-                    <Input id="name" placeholder="Nama Anda" />
+                    <Input id="name" placeholder="Your name" />
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="email" className="text-sm font-medium">
@@ -78,16 +78,16 @@ export function Contact() {
                   <label htmlFor="subject" className="text-sm font-medium">
                     Subject
                   </label>
-                  <Input id="subject" placeholder="Subject pesan" />
+                  <Input id="subject" placeholder="Message subject" />
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium">
-                    Pesan
+                    Message
                   </label>
-                  <Textarea id="message" placeholder="Tulis pesan Anda di sini..." rows={6} />
+                  <Textarea id="message" placeholder="Write your message here..." rows={6} />
                 </div>
                 <Button size="lg" className="w-full">
-                  Kirim Pesan
+                  Send Message
                 </Button>
               </form>
             </CardContent>

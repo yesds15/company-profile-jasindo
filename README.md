@@ -4,38 +4,38 @@
 
 ## Getting Started
 
-1. Install dependencies sekali saja setelah clone:
+1. Install dependencies once after cloning:
 
 ```bash
 npm install
 ```
 
-> **Catatan:** Jangan memakai `next` global (`next dev`, `next start`, dst). Perintah itu akan memakai Next.js di `/usr/local/lib` dan membuat error React tidak ditemukan. Selalu jalankan perintah lewat `npm run ...` agar memakai Next.js lokal project ini.
+> **Note:** Do not use global `next` (`next dev`, `next start`, etc.). That command will use Next.js from `/usr/local/lib` and cause a React not found error. Always run commands via `npm run ...` to use the local Next.js for this project.
 
-2. Jalankan server development:
+2. Run the development server:
 
 ```bash
 npm run dev
 ```
 
-Server akan aktif di [http://localhost:3000](http://localhost:3000).
+The server will be active at [http://localhost:3000](http://localhost:3000).
 
-3. Untuk build production dan menjalankan hasil build:
+3. To build for production and run the build:
 
 ```bash
 npm run build
 npm run start
 ```
 
-Setelah `npm run start`, server production aktif di [http://localhost:3001](http://localhost:3001).
+After `npm run start`, the production server is active at [http://localhost:3001](http://localhost:3001).
 
-## Konsep & Identitas Visual
+## Concept & Visual Identity
 
-- **Warna dasar biru** – palet utama memakai gradasi biru (sky, indigo) dengan aksen cyan dan ungu agar antarmuka terasa modern namun tetap profesional.
-- **Lapisan warna dinamis** – setiap section memiliki gradasi/blur blob sehingga tampilan tidak polos dan membantu membedakan blok konten.
-- **Ilustrasi kustom** – file `public/hero-illustration.svg` dan `public/team-collaboration.svg` menjadi hero/about image sehingga tidak lagi menampilkan placeholder.
-- **Portfolio nyata** – kartu portfolio kini menggunakan foto tematik dari Unsplash agar cerita proyek lebih hidup.
-- **Call-to-action jelas** – tombol “Lihat Portfolio” langsung mengarah ke section `#portfolio`, sedangkan CTA lain menuntun ke formulir kontak.
+- **Blue base color** – the main palette uses blue gradients (sky, indigo) with cyan and purple accents so the interface feels modern yet professional.
+- **Dynamic color layers** – each section has gradients/blur blobs so the display is not plain and helps differentiate content blocks.
+- **Custom illustrations** – files `public/hero-illustration.svg` and `public/team-collaboration.svg` serve as hero/about images so they no longer display placeholders.
+- **Real portfolio** – portfolio cards now use thematic photos from Unsplash to make project stories more alive.
+- **Clear call-to-action** – the "View Portfolio" button directly points to the `#portfolio` section, while other CTAs lead to the contact form.
 
 ## Project Structure
 

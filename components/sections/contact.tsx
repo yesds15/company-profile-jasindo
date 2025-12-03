@@ -12,19 +12,19 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    content: "info@techvision.com",
-    link: "mailto:info@techvision.com",
+    content: "hello@rifinity.com",
+    link: "mailto:hello@rifinity.com",
   },
   {
     icon: Phone,
-    title: "Telepon",
+    title: "Phone",
     content: "+62 812 3456 7890",
     link: "tel:+6281234567890",
   },
   {
     icon: MapPin,
-    title: "Alamat",
-    content: "Jakarta Selatan, Indonesia",
+    title: "Address",
+    content: "South Jakarta, Indonesia",
     link: "#",
   },
 ]
@@ -53,10 +53,10 @@ export function Contact() {
     <section id="contact" className="py-20 px-6 md:px-20 bg-gradient-to-t from-blue-900 via-blue-800 to-slate-900 text-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
-          <span className="text-secondary font-semibold text-lg uppercase tracking-[0.3em]">Hubungi Kami</span>
-          <h2 className="text-4xl md:text-5xl font-bold text-balance">Mari Wujudkan Project Anda</h2>
+          <span className="text-secondary font-semibold text-lg uppercase tracking-[0.3em]">Contact Us</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-balance">Let&apos;s Build Your Next Project</h2>
           <p className="text-lg text-white/70 max-w-2xl mx-auto leading-relaxed">
-            Siap memulai project digital Anda? Hubungi kami untuk konsultasi gratis dengan tim TechVision.
+            Ready to start your next digital product? Get in touch for a free consultation with the Rifinity team.
           </p>
         </div>
 
@@ -81,11 +81,11 @@ export function Contact() {
             </div>
 
             <div className="p-8 rounded-2xl bg-white/5 border border-white/10">
-              <h3 className="text-xl font-semibold mb-3">Jam Operasional</h3>
+              <h3 className="text-xl font-semibold mb-3">Business Hours</h3>
               <div className="space-y-2 text-white/70">
-                <p>Senin - Jumat: 09:00 - 18:00 WIB</p>
-                <p>Sabtu: 09:00 - 14:00 WIB</p>
-                <p>Minggu: Tutup</p>
+                <p>Monday - Friday: 09:00 - 18:00 (WIB / UTC+7)</p>
+                <p>Saturday: 09:00 - 14:00 (WIB / UTC+7)</p>
+                <p>Sunday: Closed</p>
               </div>
             </div>
           </div>
@@ -93,14 +93,14 @@ export function Contact() {
           <form onSubmit={handleSubmit} className="space-y-6 bg-white p-8 rounded-3xl shadow-2xl shadow-blue-900/40 text-slate-900">
             <div className="space-y-2">
               <label htmlFor="name" className="text-sm font-medium">
-                Nama Lengkap
+                Full Name
               </label>
               <Input
                 id="name"
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="Masukkan nama lengkap"
+                placeholder="Enter your full name"
                 required
                 className="h-12"
               />
@@ -116,7 +116,7 @@ export function Contact() {
                 type="email"
                 value={formData.email}
                 onChange={handleChange}
-                placeholder="nama@email.com"
+                placeholder="you@example.com"
                 required
                 className="h-12"
               />
@@ -124,7 +124,7 @@ export function Contact() {
 
             <div className="space-y-2">
               <label htmlFor="phone" className="text-sm font-medium">
-                Nomor Telepon
+                Phone Number
               </label>
               <Input
                 id="phone"
@@ -140,14 +140,14 @@ export function Contact() {
 
             <div className="space-y-2">
               <label htmlFor="message" className="text-sm font-medium">
-                Pesan
+                Message
               </label>
               <Textarea
                 id="message"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                placeholder="Ceritakan tentang project Anda..."
+                placeholder="Tell us about your project..."
                 required
                 rows={6}
                 className="resize-none"
@@ -155,7 +155,7 @@ export function Contact() {
             </div>
 
             <Button type="submit" size="lg" className="w-full text-lg shadow-lg shadow-blue-500/30">
-              Kirim Pesan
+              Send Message
             </Button>
           </form>
         </div>

@@ -11,13 +11,13 @@ export function Services() {
 
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
-          <span className="text-primary font-semibold text-lg tracking-wide uppercase">Layanan Kami</span>
+          <span className="text-primary font-semibold text-lg tracking-wide uppercase">Our Services</span>
           <h2 className="text-4xl md:text-5xl font-bold text-balance text-slate-900">
-            Solusi Digital Lengkap untuk Bisnis Anda
+            End‑to‑end digital solutions for your business
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Kami menyediakan layanan menyeluruh mulai dari strategi hingga implementasi agar transformasi digital Anda
-            berjalan mulus.
+            We support you from strategy to implementation so your digital transformation feels smooth, structured, and
+            measurable.
           </p>
         </div>
 

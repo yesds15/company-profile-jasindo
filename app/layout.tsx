@@ -12,9 +12,9 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "TechVision - Solusi Digital Terpercaya",
+  title: "Rifinity - Trusted Digital Solutions",
   description:
-    "TechVision adalah perusahaan teknologi terkemuka yang menyediakan solusi digital inovatif untuk bisnis Anda. Layanan web development, mobile app, UI/UX design, dan digital marketing.",
+    "Rifinity is a leading technology company providing innovative digital solutions for your business. Web development, mobile apps, UI/UX design, and performance-driven digital marketing.",
   generator: "v0.app",
 }
 
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="id" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} antialiased`}>
         {children}
         <Analytics />

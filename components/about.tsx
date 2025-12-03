@@ -6,17 +6,17 @@ export function About() {
     {
       icon: Code2,
       title: "Clean Code",
-      description: "Menulis kode yang bersih, maintainable, dan mengikuti best practices",
+      description: "Writing clean, maintainable code that follows best practices",
     },
     {
       icon: Palette,
       title: "UI/UX Design",
-      description: "Menciptakan pengalaman pengguna yang intuitif dan menarik",
+      description: "Creating intuitive and engaging user experiences",
     },
     {
       icon: Rocket,
       title: "Fast Delivery",
-      description: "Menyelesaikan proyek tepat waktu dengan kualitas terbaik",
+      description: "Completing projects on time with the best quality",
     },
   ]
 
@@ -25,9 +25,9 @@ export function About() {
       <div className="container mx-auto max-w-6xl">
         <div className="space-y-12">
           <div className="space-y-4 text-center">
-            <h2 className="text-4xl md:text-5xl font-bold">Tentang Saya</h2>
+            <h2 className="text-4xl md:text-5xl font-bold">About Me</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
-              Developer yang bersemangat menciptakan solusi digital yang inovatif
+              A passionate developer creating innovative digital solutions
             </p>
           </div>
 
@@ -41,13 +41,13 @@ export function About() {
             </div>
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Saya memulai perjalanan sebagai developer sejak 2018. Selama bertahun-tahun, saya telah bekerja dengan
-                berbagai teknologi dan framework, mengembangkan aplikasi web yang kompleks untuk klien dari berbagai
-                industri.
+                I started my journey as a developer in 2018. Over the years, I have worked with
+                various technologies and frameworks, developing complex web applications for clients from various
+                industries.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Passion saya adalah mengubah ide menjadi kenyataan melalui kode. Saya percaya bahwa teknologi harus
-                memudahkan hidup manusia, dan itulah yang saya coba wujudkan dalam setiap proyek yang saya kerjakan.
+                My passion is turning ideas into reality through code. I believe that technology should
+                make human life easier, and that's what I try to achieve in every project I work on.
               </p>
             </div>
           </div>

@@ -8,20 +8,20 @@ export function Hero() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <div className="space-y-2">
-              <p className="text-primary font-medium">Halo, saya</p>
+              <p className="text-primary font-medium">Hello, I'm</p>
               <h1 className="text-5xl md:text-7xl font-bold text-balance">John Doe</h1>
               <h2 className="text-2xl md:text-3xl text-muted-foreground">Full Stack Developer</h2>
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Saya adalah seorang developer yang passionate dalam membangun aplikasi web modern dan user-friendly.
-              Dengan pengalaman lebih dari 5 tahun, saya fokus pada pengembangan solusi yang efisien dan scalable.
+              I am a passionate developer focused on building modern and user-friendly web applications.
+              With over 5 years of experience, I focus on developing efficient and scalable solutions.
             </p>
             <div className="flex gap-4 flex-wrap">
               <Button size="lg" asChild>
-                <a href="#contact">Hubungi Saya</a>
+                <a href="#contact">Contact Me</a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="#projects">Lihat Portfolio</a>
+                <a href="#projects">View Portfolio</a>
               </Button>
             </div>
             <div className="flex gap-4 pt-4">

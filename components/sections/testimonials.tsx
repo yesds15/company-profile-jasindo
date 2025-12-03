@@ -9,17 +9,18 @@ export function Testimonials() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
           <span className="text-primary font-semibold text-lg uppercase tracking-[0.25em]">Testimonial</span>
-          <h2 className="text-4xl md:text-5xl font-bold text-balance text-slate-900">Apa Kata Klien Kami</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-balance text-slate-900">What our clients are saying</h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Cerita nyata dari klien yang merasakan transformasi bisnis bersama TechVision.
+            Real stories from clients who scaled, modernised, and launched faster with Rifinity as their technology partner.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="relative">
+          <div className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory">
           {testimonialsData.map((testimonial, index) => (
             <div
               key={index}
-              className="p-8 rounded-3xl bg-white/85 border border-white/70 backdrop-blur shadow-lg shadow-blue-100/60 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-200/80 transition-all duration-300"
+              className="min-w-[260px] md:min-w-[320px] lg:min-w-[360px] snap-start p-8 rounded-3xl bg-white/85 border border-white/70 backdrop-blur shadow-lg shadow-blue-100/60 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-200/80 transition-all duration-300"
             >
               <div className="flex gap-1 mb-4 text-amber-400">
                 {[...Array(testimonial.rating)].map((_, i) => (
@@ -39,6 +40,7 @@ export function Testimonials() {
               </div>
             </div>
           ))}
+        </div>
         </div>
       </div>
     </section>

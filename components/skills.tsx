@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card"
 export function Skills() {
   const skillCategories = [
     {
-      category: "Frontend",
+      category: "Frontendv",
       skills: [
         { name: "React", level: 95 },
         { name: "Next.js", level: 90 },
@@ -38,7 +38,7 @@ export function Skills() {
           <div className="space-y-4 text-center">
             <h2 className="text-4xl md:text-5xl font-bold">Skills & Expertise</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
-              Teknologi dan tools yang saya kuasai
+              Technologies and tools I master
             </p>
           </div>
 

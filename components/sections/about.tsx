@@ -3,18 +3,18 @@ import { Target, Eye, Award } from "lucide-react"
 const highlights = [
   {
     icon: Target,
-    title: "Misi Kami",
-    description: "Memberikan solusi digital terbaik yang membantu bisnis berkembang pesat",
+    title: "Our Mission",
+    description: "Deliver digital solutions that help businesses grow faster and more sustainably.",
   },
   {
     icon: Eye,
-    title: "Visi Kami",
-    description: "Menjadi partner teknologi terpercaya untuk transformasi digital Indonesia",
+    title: "Our Vision",
+    description: "Become a trusted technology partner for digital transformation across industries.",
   },
   {
     icon: Award,
-    title: "Nilai Kami",
-    description: "Inovasi, kualitas, dan kepuasan klien adalah prioritas utama kami",
+    title: "Our Values",
+    description: "Innovation, quality, and client success are at the heart of everything we do.",
   },
 ]
 
@@ -28,7 +28,7 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="relative order-2 lg:order-1">
             <div className="aspect-[4/3] rounded-[2rem] overflow-hidden bg-gradient-to-br from-primary/10 to-accent/10 border border-white/60 shadow-2xl shadow-blue-200/40">
-              <img src="/team-collaboration.svg" alt="Tim TechVision" className="w-full h-full object-cover" />
+              <img src="/team-collaboration.svg" alt="Rifinity product and engineering team collaborating" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-8 -left-6 w-24 h-24 bg-sky-300/40 rounded-3xl blur-3xl" />
             <div className="absolute -top-8 -right-6 w-28 h-28 bg-indigo-300/40 rounded-3xl blur-3xl" />
@@ -36,18 +36,17 @@ export function About() {
 
           <div className="space-y-8 order-1 lg:order-2">
             <div className="space-y-4">
-              <span className="text-primary font-semibold text-lg tracking-wide">Tentang Kami</span>
+              <span className="text-primary font-semibold text-lg tracking-wide">About Us</span>
               <h2 className="text-4xl md:text-5xl font-bold leading-tight text-balance text-slate-900">
-                Membangun Masa Depan Digital Bersama
+                Building Your Next Digital Chapter Together
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed">
-                TechVision adalah perusahaan teknologi yang berfokus pada solusi digital inovatif. Dengan tim
-                profesional berpengalaman, kami telah membantu ratusan bisnis merancang produk digital berperforma tinggi
-                sejak 2015.
+                Rifinity is a technology company focused on crafting innovative digital products. Our experienced team has
+                helped dozens of brands design and ship high‑performing web and mobile experiences since 2015.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Kami menggabungkan strategi, desain, dan teknologi secara end-to-end untuk menghadirkan pengalaman digital
-                yang relevan dan berdampak nyata.
+                We combine strategy, design, and engineering end‑to‑end to deliver digital experiences that are relevant,
+                scalable, and truly move the needle for your business.
               </p>
             </div>
 

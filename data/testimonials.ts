@@ -3,7 +3,8 @@ export const testimonialsData = [
     name: "Budi Santoso",
     position: "CEO",
     company: "Fashion Store Indonesia",
-    content: "TechVision sangat profesional dalam mengembangkan e-commerce kami. Traffic meningkat 300% dalam 3 bulan!",
+    content:
+      "Rifinity was highly professional in building our e‑commerce platform. Our traffic grew by 300% within three months.",
     rating: 5,
   },
   {
@@ -11,21 +12,23 @@ export const testimonialsData = [
     position: "Marketing Director",
     company: "HealthCare Plus",
     content:
-      "Aplikasi telemedicine yang dibuat sangat user-friendly. Pasien kami sangat puas dengan kemudahan aksesnya.",
+      "The telemedicine app they delivered is extremely user‑friendly. Our patients love how easy it is to access care.",
     rating: 5,
   },
   {
     name: "Ahmad Rizki",
     position: "Founder",
     company: "EduLearn Platform",
-    content: "Platform LMS yang dibangun melebihi ekspektasi. Fitur lengkap, UI menarik, dan performa sangat cepat.",
+    content:
+      "The LMS platform they built exceeded expectations — rich features, clean UI, and excellent performance.",
     rating: 5,
   },
   {
     name: "Linda Chen",
     position: "Product Manager",
     company: "FoodieGo",
-    content: "Dari konsep hingga launching, tim TechVision sangat supportif dan responsive terhadap feedback kami.",
+    content:
+      "From concept to launch, the Rifinity team was very supportive and responsive to our feedback at every stage.",
     rating: 5,
   },
   {
@@ -33,14 +36,15 @@ export const testimonialsData = [
     position: "CTO",
     company: "FinTech Solutions",
     content:
-      "Keamanan dan skalabilitas aplikasi banking kami terjamin. TechVision benar-benar memahami kebutuhan kami.",
+      "Our banking app is both secure and scalable. Rifinity really understands the needs of financial‑grade products.",
     rating: 5,
   },
   {
     name: "Diana Putri",
     position: "Owner",
     company: "Boutique Fashion",
-    content: "Website yang dibuat sangat elegan dan mudah dikelola. Penjualan online kami meningkat signifikan!",
+    content:
+      "The website they built is elegant and easy to manage. Our online sales have increased significantly.",
     rating: 5,
   },
 ]

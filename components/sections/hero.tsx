@@ -15,19 +15,19 @@ export function Hero() {
           <div className="space-y-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/70 text-primary rounded-full text-sm font-medium shadow-sm">
               <span className="size-2 rounded-full bg-primary" />
-              Solusi Digital Berbasis Inovasi
+              Innovation‑driven digital solutions
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-balance text-slate-900">
-              Wujudkan Bisnis Digital <span className="text-primary">Impian Anda</span>
+              Turn your digital <span className="text-primary">product ideas</span> into reality
             </h1>
             <p className="text-lg md:text-xl text-slate-600 leading-relaxed text-pretty">
-              Kami membantu bisnis tumbuh dengan strategi teknologi modern dan desain yang memukau — dari website
-              responsif, aplikasi mobile, hingga kampanye pemasaran digital yang terukur.
+              Rifinity helps you grow with modern technology and thoughtful design — from responsive websites and mobile
+              apps to measurable, performance‑driven digital campaigns.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="text-lg group shadow-lg shadow-primary/20" asChild>
                 <a href="#contact">
-                  Mulai Sekarang
+                  Get Started
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
                 </a>
               </Button>
@@ -37,7 +37,7 @@ export function Hero() {
                 className="text-lg bg-white/80 backdrop-blur border-primary/40 hover:bg-primary/10"
                 asChild
               >
-                <a href="#portfolio">Lihat Portfolio</a>
+                <a href="#portfolio">View Portfolio</a>
               </Button>
             </div>
           </div>

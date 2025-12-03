@@ -1,16 +1,18 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
-  { name: "Beranda", href: "#home" },
-  { name: "Tentang", href: "#about" },
-  { name: "Layanan", href: "#services" },
+  { name: "Home", href: "#home" },
+  { name: "About", href: "#about" },
+  { name: "Services", href: "#services" },
   { name: "Portfolio", href: "#portfolio" },
-  { name: "Kontak", href: "#contact" },
+  { name: "Contact", href: "#contact" },
 ]
+
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -32,8 +34,15 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-20">
         <div className="flex items-center justify-between h-20">
-          <a href="#home" className="text-2xl font-bold text-primary">
-            TechVision
+          <a href="#home" className="flex items-center gap-3 text-2xl font-bold text-primary">
+            <Image 
+              src="/logo.jpeg" 
+              alt="Rifinity Logo" 
+              width={60} 
+              height={60} 
+              className="object-contain bg-transparent" 
+            />
+            <span>Rifinity</span>
           </a>
 
           <div className="hidden md:flex items-center gap-8">
@@ -47,7 +56,7 @@ export function Navbar() {
               </a>
             ))}
             <Button asChild className="shadow-md shadow-blue-200/60">
-              <a href="#contact">Hubungi Kami</a>
+              <a href="#contact">Contact Us</a>
             </Button>
           </div>
 
@@ -70,7 +79,7 @@ export function Navbar() {
                 </a>
               ))}
               <Button className="w-full mt-2" asChild>
-                <a href="#contact">Hubungi Kami</a>
+                <a href="#contact">Contact Us</a>
               </Button>
             </div>
           </div>

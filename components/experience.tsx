@@ -6,9 +6,9 @@ export function Experience() {
     {
       title: "Senior Full Stack Developer",
       company: "Tech Solutions Inc.",
-      period: "2022 - Sekarang",
+      period: "2022 - Present",
       description:
-        "Memimpin tim pengembangan untuk membangun aplikasi enterprise scale. Bertanggung jawab atas arsitektur sistem dan code review.",
+        "Leading development teams to build enterprise-scale applications. Responsible for system architecture and code review.",
       technologies: ["React", "Next.js", "Node.js", "PostgreSQL"],
     },
     {
@@ -16,7 +16,7 @@ export function Experience() {
       company: "Digital Agency Co.",
       period: "2020 - 2022",
       description:
-        "Mengembangkan berbagai website dan aplikasi web untuk klien dari berbagai industri. Fokus pada pengembangan frontend dan backend.",
+        "Developed various websites and web applications for clients from various industries. Focused on frontend and backend development.",
       technologies: ["React", "Express", "MongoDB", "AWS"],
     },
     {
@@ -24,7 +24,7 @@ export function Experience() {
       company: "Startup Innovate",
       period: "2018 - 2020",
       description:
-        "Membangun interface user-friendly dan responsive untuk aplikasi mobile dan web. Bekerja sama dengan tim design dan backend.",
+        "Built user-friendly and responsive interfaces for mobile and web applications. Collaborated with design and backend teams.",
       technologies: ["HTML", "CSS", "JavaScript", "React"],
     },
   ]
@@ -34,8 +34,8 @@ export function Experience() {
       <div className="container mx-auto max-w-4xl">
         <div className="space-y-12">
           <div className="space-y-4 text-center">
-            <h2 className="text-4xl md:text-5xl font-bold">Pengalaman Kerja</h2>
-            <p className="text-xl text-muted-foreground text-balance">Perjalanan karir profesional saya</p>
+            <h2 className="text-4xl md:text-5xl font-bold">Work Experience</h2>
+            <p className="text-xl text-muted-foreground text-balance">My professional career journey</p>
           </div>
 
           <div className="space-y-6">
