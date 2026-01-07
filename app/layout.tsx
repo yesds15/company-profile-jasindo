@@ -12,9 +12,9 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Rifinity - Trusted Digital Solutions",
+  title: "Skyra Studio - Trusted Digital Solutions",
   description:
-    "Rifinity is a leading technology company providing innovative digital solutions for your business. Web development, mobile apps, UI/UX design, and performance-driven digital marketing.",
+    "Skyra Studio is a leading technology company providing innovative digital solutions for your business. Web development, mobile apps, UI/UX design, and performance-driven digital marketing.",
   generator: "v0.app",
 }
 
