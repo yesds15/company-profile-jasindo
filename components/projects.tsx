@@ -20,11 +20,11 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Rifinity Commerce Cloud",
+    title: "Skyra Studio Commerce Cloud",
     images: [
-      "https://placehold.co/800x500?text=Rifinity+Commerce+Cloud+-+Storefront+UI",
-      "https://placehold.co/800x500?text=Rifinity+Commerce+Cloud+-+Checkout+Flow",
-      "https://placehold.co/800x500?text=Rifinity+Commerce+Cloud+-+Analytics+Dashboard",
+      "https://placehold.co/800x500?text=Skyra+Studio+Commerce+Cloud+-+Storefront+UI",
+      "https://placehold.co/800x500?text=Skyra+Studio+Commerce+Cloud+-+Checkout+Flow",
+      "https://placehold.co/800x500?text=Skyra+Studio+Commerce+Cloud+-+Analytics+Dashboard",
     ],
     descriptionTitle: "End-to-end e‑commerce platform for modern brands",
     descriptionItems: [
@@ -33,7 +33,7 @@ const projects: Project[] = [
       "Admin dashboard for catalog, inventory, and promotions with role‑based access control.",
     ],
     longDescription:
-      "Rifinity Commerce Cloud is designed for brands that need both flexibility and speed. We combined a headless architecture with a modern storefront so marketing teams can experiment quickly while engineering keeps the platform stable and secure.",
+      "Skyra Studio Commerce Cloud is designed for brands that need both flexibility and speed. We combined a headless architecture with a modern storefront so marketing teams can experiment quickly while engineering keeps the platform stable and secure.",
     technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Tailwind CSS"],
     liveUrl: "#",
     githubUrl: "#",
@@ -137,7 +137,7 @@ export function Projects() {
           <div className="space-y-4 text-center">
             <h2 className="text-4xl md:text-5xl font-bold">Featured product builds</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
-              A closer look at a few Rifinity projects, including the flows, features, and technology behind them.
+              A closer look at a few Skyra Studio projects, including the flows, features, and technology behind them.
             </p>
           </div>
 

@@ -35,14 +35,14 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-6 md:px-20">
         <div className="flex items-center justify-between h-20">
           <a href="#home" className="flex items-center gap-3 text-2xl font-bold text-primary">
-            <Image 
+            {/* <Image 
               src="/logo.jpeg" 
-              alt="Rifinity Logo" 
+              alt="Skyra Studio Logo" 
               width={60} 
               height={60} 
               className="object-contain bg-transparent" 
-            />
-            <span>Rifinity</span>
+            /> */}
+            <span>Skyra Studio</span>
           </a>
 
           <div className="hidden md:flex items-center gap-8">
