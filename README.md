@@ -8,15 +8,15 @@
 
 ### Tech Stack
 
-- **Next.js** - React framework untuk production
-- **React** - Library JavaScript untuk UI
+- **Next.js 15.0.3** - React framework untuk production
+- **React 18.3.1** - Library JavaScript untuk UI
 - **TypeScript** - Bahasa pemrograman dengan type safety
 - **Tailwind CSS** - Framework CSS utility-first
 - **Lucide React** - Icon library modern
 
 ---
 
-### 2. Deskripsi Website
+### 2. Deskrip            si Website
 
 Website ini adalah landing page / website portofolio perusahaan yang menampilkan:
 
