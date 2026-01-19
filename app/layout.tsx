@@ -14,7 +14,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Jasindo Putra Perkasa",
   description:
-    "Skyra Studio is a leading technology company providing innovative digital solutions for your business. Web development, mobile apps, UI/UX design, and performance-driven digital marketing.",
+    "Mitra logistik global untuk pengiriman laut, udara, custom clearance, dan distribusi domestik. Aman, cepat, dan transparan.",
   generator: "v0.app",
 }
 

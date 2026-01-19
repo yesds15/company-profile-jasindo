@@ -43,7 +43,7 @@ export function Hero() {
 
           <div className="relative">
             <div className="aspect-square rounded-[2.5rem] bg-transparent overflow-hidden flex items-center justify-center">
-              <img src="/Logo1.png" alt="Digital Solutions" className="w-full h-full object-contain" />
+              <img src="/logo-jasindo.png" alt="Digital Solutions" className="w-full h-full object-contain" />
             </div>
             <div className="absolute -bottom-10 -left-6 w-28 h-28 bg-blue-300/40 rounded-3xl blur-3xl" />
             <div className="absolute -top-8 -right-4 w-40 h-40 bg-indigo-300/40 rounded-3xl blur-3xl" />
