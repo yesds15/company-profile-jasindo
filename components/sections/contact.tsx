@@ -18,7 +18,7 @@ const contactInfo = [
     icon: Phone,
     title: "Ponsel",
     content: "+62 878 8047 5274",
-    link: "https://wa.me/6287880475274", // Update: Langsung ke WhatsApp
+    link: "https://wa.me/6287880475274", // Link langsung ke WhatsApp
   },
   {
     icon: MapPin,
@@ -36,18 +36,31 @@ export function Contact() {
     message: "",
   })
 
-  // --- LOGIKA KIRIM EMAIL ---
+  // --- LOGIKA KIRIM EMAIL (YANG SUDAH DIPERBAIKI) ---
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
 
-    // 1. Siapkan data tujuan dan isi pesan
     const emailTujuan = "jasindocargoputraperkasa@gmail.com"
-    const subject = `Pesan Website dari: ${formData.name}`
+    const subject = `Pesan Website: Pertanyaan dari ${formData.name}`
 
-    // 2. Format isi email agar rapi saat dibuka
-    const body = `Halo Tim Jasindo,%0D%0A%0D%0ASaya ingin bertanya mengenai layanan logistik.%0D%0A%0D%0ADetail Pengirim:%0D%0ANama: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0ANo HP: ${formData.phone}%0D%0A%0D%0APesan:%0D%0A${formData.message}`
+    // Format isi email menggunakan Enter biasa (Backticks) agar rapi
+    const body = `Halo Tim Jasindo,
 
-    // 3. Buka aplikasi email bawaan user
+Saya tertarik dengan layanan logistik Anda dan ingin bertanya lebih lanjut.
+
+Berikut adalah data diri saya:
+------------------------------------------------
+Nama   : ${formData.name}
+Email  : ${formData.email}
+No. HP : ${formData.phone}
+------------------------------------------------
+
+Isi Pesan:
+"${formData.message}"
+
+Mohon informasinya. Terima kasih.`
+
+    // encodeURIComponent akan otomatis mengubah Enter dan Spasi menjadi kode yang bisa dibaca email
     window.location.href = `mailto:${emailTujuan}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
   }
 
@@ -59,11 +72,11 @@ export function Contact() {
   }
 
   return (
-    // PERBAIKAN TAMPILAN: Padding dikurangi (py-12 px-4) agar pas di layar HP
+    // TAMPILAN RESPONSIVE (Padding disesuaikan untuk HP)
     <section id="contact" className="py-12 px-4 md:py-20 md:px-20 bg-gradient-to-t from-blue-900 via-blue-800 to-slate-900 text-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
 
-        {/* Header Judul - Ukuran font disesuaikan untuk HP */}
+        {/* Header Judul */}
         <div className="text-center space-y-3 mb-10 md:mb-16">
           <span className="text-secondary font-semibold text-sm md:text-lg uppercase tracking-[0.2em]">
             Hubungi Kami
@@ -92,7 +105,6 @@ export function Contact() {
                   </div>
                   <div className="overflow-hidden">
                     <h4 className="font-semibold mb-1 text-sm md:text-base">{info.title}</h4>
-                    {/* class break-all agar email panjang tidak melebar keluar layar HP */}
                     <p className="text-white/70 text-sm md:text-base break-all">{info.content}</p>
                   </div>
                 </a>
@@ -124,7 +136,7 @@ export function Contact() {
                 onChange={handleChange}
                 placeholder="Nama Lengkap Anda"
                 required
-                className="h-10 md:h-12 text-sm md:text-base" // Tinggi input disesuaikan untuk HP
+                className="h-10 md:h-12 text-sm md:text-base"
               />
             </div>
 
@@ -171,7 +183,7 @@ export function Contact() {
                 onChange={handleChange}
                 placeholder="Tuliskan pesan Anda..."
                 required
-                rows={4} // Row dikurangi biar ga kepanjangan di HP
+                rows={4}
                 className="resize-none text-sm md:text-base"
               />
             </div>
