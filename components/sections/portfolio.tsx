@@ -82,13 +82,12 @@ export function Portfolio() {
     >
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
-          <span className="text-primary font-semibold text-lg uppercase tracking-[0.2em]">Portfolio</span>
+          <span className="text-primary font-semibold text-lg uppercase tracking-[0.2em]">Portofolio</span>
           <h2 className="text-4xl md:text-5xl font-bold text-balance text-slate-900">
-            Selected client projects
+            Layanan & Pengalaman Kami
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            A cross‑industry collection that showcases how our strategy, design, and engineering create real business
-            impact.
+            Rekam jejak kami dalam menangani berbagai tantangan logistik, mulai dari kargo umum hingga alat berat dengan strategi pengiriman yang aman.
           </p>
         </div>
 
@@ -152,7 +151,7 @@ export function Portfolio() {
 
             {/* Tech Stack / Tags */}
             <div className="mb-6">
-              <h3 className="text-xl font-semibold mb-3 text-slate-900">Technologies</h3>
+              <h3 className="text-xl font-semibold mb-3 text-slate-900">Spesifikasi Layanan</h3>
               <div className="flex flex-wrap gap-2">
                 {selectedProject.tags.map((tag) => (
                   <span

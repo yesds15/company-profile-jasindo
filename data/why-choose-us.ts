@@ -1,35 +1,43 @@
-import { Users, Clock, Award, HeadphonesIcon, Code2, TrendingUp } from "lucide-react"
+// Pastikan baris import ini dicopy juga karena ada penambahan icon baru (ShieldCheck & Globe)
+import { 
+  Users, 
+  Clock, 
+  ShieldCheck, 
+  HeadphonesIcon, 
+  Globe, 
+  TrendingUp 
+} from "lucide-react"
 
 export const whyChooseUsData = [
   {
     icon: Users,
-    title: "Senior, cross‑functional team",
+    title: "Tim Ahli & Berpengalaman",
     description:
-      "Experienced developers, designers, and product leaders with 8+ years building and shipping digital products.",
+      "Didukung oleh tenaga profesional yang sangat menguasai regulasi ekspor-impor, prosedur kepabeanan, dan penanganan kargo spesifik.",
   },
   {
     icon: Clock,
-    title: "Reliable delivery",
-    description: "Clear timelines, transparent communication, and a strong commitment to shipping on schedule.",
+    title: "Jaminan Ketepatan Waktu",
+    description: "Komitmen memberikan estimasi jadwal (ETA) yang akurat dengan perencanaan rute pengiriman paling efisien.",
   },
   {
-    icon: Award,
-    title: "Quality by design",
-    description: "Modern tooling, best practices, and thorough testing baked into every engagement.",
+    icon: ShieldCheck, // Mengganti 'Award' dengan ShieldCheck (Keamanan)
+    title: "Keamanan Kargo Prioritas",
+    description: "Penerapan SOP ketat untuk memastikan barang Anda tetap aman dan utuh mulai dari loading hingga sampai di tujuan.",
   },
   {
     icon: HeadphonesIcon,
-    title: "Dedicated support",
-    description: "A responsive support team that keeps your product stable and helps you iterate with confidence.",
+    title: "Layanan Pelanggan Responsif",
+    description: "Tim support yang selalu siap membantu konsultasi pemberkasan dan memberikan update status pengiriman secara cepat.",
   },
   {
-    icon: Code2,
-    title: "Modern tech stack",
-    description: "We work with React, Next.js, Node.js, cloud platforms, and modern DevOps practices.",
+    icon: Globe, // Mengganti 'Code2' dengan Globe (Jaringan Global)
+    title: "Jaringan Global Luas",
+    description: "Memiliki koneksi kuat dengan agen pelayaran dan mitra logistik di berbagai negara untuk jangkauan internasional.",
   },
   {
     icon: TrendingUp,
-    title: "Business impact first",
-    description: "We focus on metrics that matter: conversion, retention, performance, and long‑term ROI.",
+    title: "Biaya Kompetitif & Transparan",
+    description: "Memberikan solusi logistik dengan perhitungan biaya yang efisien dan jujur, tanpa biaya tersembunyi.",
   },
 ]

@@ -12,7 +12,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Skyra Studio - Trusted Digital Solutions",
+  title: "Jasindo Putra Perkasa",
   description:
     "Skyra Studio is a leading technology company providing innovative digital solutions for your business. Web development, mobile apps, UI/UX design, and performance-driven digital marketing.",
   generator: "v0.app",

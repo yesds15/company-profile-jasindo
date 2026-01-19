@@ -9,9 +9,9 @@ export function Testimonials() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
           <span className="text-primary font-semibold text-lg uppercase tracking-[0.25em]">Testimonial</span>
-          <h2 className="text-4xl md:text-5xl font-bold text-balance text-slate-900">What our clients are saying</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-balance text-slate-900">Apa Kata Klien Kami</h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Real stories from clients who scaled, modernised, and launched faster with Rifinity as their technology partner.
+            Kisah sukses dari mitra bisnis yang telah mempercepat proses ekspor-impor dan distribusi logistik mereka bersama PT Jasindo Putra Perkasa.
           </p>
         </div>
 

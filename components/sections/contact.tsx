@@ -12,19 +12,19 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    content: "hello@rifinity.com",
-    link: "mailto:hello@rifinity.com",
+    content: "jasindocargoputraperkasa@gmail.com",
+    link: "mailto:jasindocargoputraperkasa@gmail.com",
   },
   {
     icon: Phone,
-    title: "Phone",
-    content: "+62 812 3456 7890",
-    link: "tel:+6281234567890",
+    title: "Ponsel",
+    content: "+62 878 8047 5274",
+    link: "tel:+6287880475274",
   },
   {
     icon: MapPin,
-    title: "Address",
-    content: "South Jakarta, Indonesia",
+    title: "Alamat",
+    content: "North Jakarta, Indonesia",
     link: "#",
   },
 ]
@@ -53,10 +53,10 @@ export function Contact() {
     <section id="contact" className="py-20 px-6 md:px-20 bg-gradient-to-t from-blue-900 via-blue-800 to-slate-900 text-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
-          <span className="text-secondary font-semibold text-lg uppercase tracking-[0.3em]">Contact Us</span>
-          <h2 className="text-4xl md:text-5xl font-bold text-balance">Let&apos;s Build Your Next Project</h2>
+          <span className="text-secondary font-semibold text-lg uppercase tracking-[0.3em]">Hubungi Kami</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-balance">Percayakan kebutuhan Anda kepada kami</h2>
           <p className="text-lg text-white/70 max-w-2xl mx-auto leading-relaxed">
-            Ready to start your next digital product? Get in touch for a free consultation with the Rifinity team.
+            Jika ada yang ingin ditanyakan segera hubungi kontak dibawah ini!
           </p>
         </div>
 
@@ -81,11 +81,9 @@ export function Contact() {
             </div>
 
             <div className="p-8 rounded-2xl bg-white/5 border border-white/10">
-              <h3 className="text-xl font-semibold mb-3">Business Hours</h3>
+              <h3 className="text-xl font-semibold mb-3">Jam Kerja</h3>
               <div className="space-y-2 text-white/70">
-                <p>Monday - Friday: 09:00 - 18:00 (WIB / UTC+7)</p>
-                <p>Saturday: 09:00 - 14:00 (WIB / UTC+7)</p>
-                <p>Sunday: Closed</p>
+                <p>Senin - Sabtu: 07:00 - 18:00 (WIB)</p>
               </div>
             </div>
           </div>
@@ -93,14 +91,14 @@ export function Contact() {
           <form onSubmit={handleSubmit} className="space-y-6 bg-white p-8 rounded-3xl shadow-2xl shadow-blue-900/40 text-slate-900">
             <div className="space-y-2">
               <label htmlFor="name" className="text-sm font-medium">
-                Full Name
+                Nama Lengkap
               </label>
               <Input
                 id="name"
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="Enter your full name"
+                placeholder="Nama Lengkap Anda"
                 required
                 className="h-12"
               />
@@ -116,7 +114,7 @@ export function Contact() {
                 type="email"
                 value={formData.email}
                 onChange={handleChange}
-                placeholder="you@example.com"
+                placeholder="Alamat Email Aktif"
                 required
                 className="h-12"
               />
@@ -124,7 +122,7 @@ export function Contact() {
 
             <div className="space-y-2">
               <label htmlFor="phone" className="text-sm font-medium">
-                Phone Number
+                Nomor Handphone
               </label>
               <Input
                 id="phone"
@@ -132,7 +130,7 @@ export function Contact() {
                 type="tel"
                 value={formData.phone}
                 onChange={handleChange}
-                placeholder="+62 812 3456 7890"
+                placeholder="Masukan Nomor Handphone anda"
                 required
                 className="h-12"
               />
@@ -140,14 +138,14 @@ export function Contact() {
 
             <div className="space-y-2">
               <label htmlFor="message" className="text-sm font-medium">
-                Message
+                Pesan
               </label>
               <Textarea
                 id="message"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                placeholder="Tell us about your project..."
+                placeholder="Masukan isi Pesan"
                 required
                 rows={6}
                 className="resize-none"
@@ -155,7 +153,7 @@ export function Contact() {
             </div>
 
             <Button type="submit" size="lg" className="w-full text-lg shadow-lg shadow-blue-500/30">
-              Send Message
+              Kirim Pesan
             </Button>
           </form>
         </div>

@@ -2,20 +2,19 @@ import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "luc
 
 const footerLinks = {
   company: [
-    { name: "About Us", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Portfolio", href: "#portfolio" },
-    { name: "Careers", href: "#" },
+    { name: "Tentang Kami", href: "#about" },
+    { name: "Jasa Kami", href: "#services" },
+    { name: "Portofolio", href: "#portfolio" },
   ],
   services: [
-    { name: "Web Development", href: "#services" },
-    { name: "Mobile App", href: "#services" },
-    { name: "UI/UX Design", href: "#services" },
-    { name: "Digital Marketing", href: "#services" },
+    { name: "Jasa Agency", href: "#services" },
+    { name: "Cargo & Trucking", href: "#services" },
+    { name: "Custom Clearance & Over Consignee/QQ", href: "#services" },
+    { name: "International Freight Forwarders", href: "#services" },
   ],
   contact: [
-    { icon: Mail, text: "hello@rifinity.com" },
-    { icon: Phone, text: "+62 812 3456 7890" },
+    { icon: Mail, text: "jasindocargoputraperkasa@gmail.com" },
+    { icon: Phone, text: "+62 878 8047 5274" },
     { icon: MapPin, text: "Jakarta, Indonesia" },
   ],
 }
@@ -33,9 +32,9 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 md:px-20 py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
-            <h3 className="text-2xl font-bold text-white mb-4">Rifinity</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Jasindo Putra Perkasa</h3>
             <p className="text-white/70 leading-relaxed mb-6">
-              Trusted digital solutions to help your business grow in the modern era.
+              Your Trusted Partner in Global Logistics.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -52,7 +51,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-lg mb-4">Company</h4>
+            <h4 className="font-semibold text-lg mb-4">Perusahaan</h4>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
@@ -65,7 +64,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-lg mb-4">Services</h4>
+            <h4 className="font-semibold text-lg mb-4">Layanan</h4>
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
                 <li key={link.name}>
@@ -78,7 +77,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-lg mb-4">Contact</h4>
+            <h4 className="font-semibold text-lg mb-4">Kontak</h4>
             <ul className="space-y-4">
               {footerLinks.contact.map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-white/70">
@@ -91,7 +90,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-8 text-center text-white/60">
-          <p>&copy; {new Date().getFullYear()} Rifinity. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Jasindo Putra Perkasa. All rights reserved.</p>
         </div>
       </div>
     </footer>

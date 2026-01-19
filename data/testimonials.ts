@@ -2,49 +2,49 @@ export const testimonialsData = [
   {
     name: "Budi Santoso",
     position: "CEO",
-    company: "Fashion Store Indonesia",
+    company: "PT Global Elektronik",
     content:
-      "Rifinity was highly professional in building our e‑commerce platform. Our traffic grew by 300% within three months.",
+      "Layanan Custom Clearance-nya luar biasa cepat. Barang impor elektronik saya keluar dari pelabuhan Tanjung Priok tanpa kendala (Red Line) dan tiba di gudang tepat waktu.",
     rating: 5,
   },
   {
     name: "Sarah Wijaya",
-    position: "Marketing Director",
-    company: "HealthCare Plus",
+    position: "Export Manager",
+    company: "Java Furniture",
     content:
-      "The telemedicine app they delivered is extremely user‑friendly. Our patients love how easy it is to access care.",
+      "Kami sangat terbantu dengan solusi pengiriman LCL ke Eropa. Tim Jasindo memberikan rute terbaik dengan harga kompetitif serta dokumen ekspor yang rapi.",
     rating: 5,
   },
   {
     name: "Ahmad Rizki",
-    position: "Founder",
-    company: "EduLearn Platform",
+    position: "Project Director",
+    company: "Konstruksi Maju Jaya",
     content:
-      "The LMS platform they built exceeded expectations — rich features, clean UI, and excellent performance.",
+      "Pengiriman alat berat untuk proyek di Kalimantan berjalan mulus. Tim lapangan menangani proses loading dan unloading dengan sangat profesional dan safety-oriented.",
     rating: 5,
   },
   {
-    name: "Linda Chen",
-    position: "Product Manager",
-    company: "FoodieGo",
+    name: "Linda Kusuma",
+    position: "Ops Manager",
+    company: "Food & Bev Indo",
     content:
-      "From concept to launch, the Rifinity team was very supportive and responsive to our feedback at every stage.",
+      "Armada trucking-nya lengkap dan driver-nya sangat paham rute. Distribusi barang FMCG kami ke berbagai kota jadi lebih efisien dan terlacak dengan baik.",
     rating: 5,
   },
   {
     name: "Rudi Hartono",
-    position: "CTO",
-    company: "FinTech Solutions",
+    position: "Procurement Head",
+    company: "AutoParts Nasional",
     content:
-      "Our banking app is both secure and scalable. Rifinity really understands the needs of financial‑grade products.",
+      "Sangat responsif menangani kiriman sparepart urgent via udara. Barang sampai sesuai jadwal, sehingga operasional pabrik kami tidak terganggu.",
     rating: 5,
   },
   {
     name: "Diana Putri",
     position: "Owner",
-    company: "Boutique Fashion",
+    company: "Boutique Fashion Import",
     content:
-      "The website they built is elegant and easy to manage. Our online sales have increased significantly.",
+      "Solusi Undername (QQ) dari Jasindo sangat aman dan transparan. Memudahkan kami yang baru mulai bisnis impor tanpa pusing masalah perizinan.",
     rating: 5,
   },
 ]

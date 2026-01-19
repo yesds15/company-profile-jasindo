@@ -15,19 +15,18 @@ export function Hero() {
           <div className="space-y-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/70 text-primary rounded-full text-sm font-medium shadow-sm">
               <span className="size-2 rounded-full bg-primary" />
-              Innovation‑driven digital solutions
+              Your Trusted Partner in Global Logistics
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-balance text-slate-900">
-              Turn your digital <span className="text-primary">product ideas</span> into reality
+              JASINDO PUTRA PERKASA <span className="text-primary">(Ekspor, Impor dan Terpercaya)</span>
             </h1>
             <p className="text-lg md:text-xl text-slate-600 leading-relaxed text-pretty">
-              Rifinity helps you grow with modern technology and thoughtful design — from responsive websites and mobile
-              apps to measurable, performance‑driven digital campaigns.
+              PT Jasindo Putra Perkasa hadir sebagai mitra strategis untuk kebutuhan logistik global Anda — mulai dari layanan ekspor-impor, pengiriman kargo laut & udara, hingga pengurusan kepabeanan yang cepat dan terpercaya.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="text-lg group shadow-lg shadow-primary/20" asChild>
                 <a href="#contact">
-                  Get Started
+                  Hubungi Kami
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
                 </a>
               </Button>
@@ -37,14 +36,14 @@ export function Hero() {
                 className="text-lg bg-white/80 backdrop-blur border-primary/40 hover:bg-primary/10"
                 asChild
               >
-                <a href="#portfolio">View Portfolio</a>
+                <a href="#portfolio">Lihat Portofolio</a>
               </Button>
             </div>
           </div>
 
           <div className="relative">
-            <div className="aspect-square rounded-[2.5rem] bg-white/80 backdrop-blur shadow-2xl shadow-blue-200/50 border border-white/60 overflow-hidden">
-              <img src="/hero-illustration.svg" alt="Digital Solutions" className="w-full h-full object-cover" />
+            <div className="aspect-square rounded-[2.5rem] bg-transparent overflow-hidden flex items-center justify-center">
+              <img src="/Logo1.png" alt="Digital Solutions" className="w-full h-full object-contain" />
             </div>
             <div className="absolute -bottom-10 -left-6 w-28 h-28 bg-blue-300/40 rounded-3xl blur-3xl" />
             <div className="absolute -top-8 -right-4 w-40 h-40 bg-indigo-300/40 rounded-3xl blur-3xl" />

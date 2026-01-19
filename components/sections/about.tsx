@@ -3,18 +3,18 @@ import { Target, Eye, Award } from "lucide-react"
 const highlights = [
   {
     icon: Target,
-    title: "Our Mission",
-    description: "Deliver digital solutions that help businesses grow faster and more sustainably.",
+    title: "Motto",
+    description: "Perusahaan aman, cepat, terpercaya dengan komitmen memberikan kualitas pelayanan yang diandalkan.",
   },
   {
     icon: Eye,
-    title: "Our Vision",
-    description: "Become a trusted technology partner for digital transformation across industries.",
+    title: "Visi",
+    description: "Menjamin kualitas pelayanan logistik dan perdagangan demi memenuhi kepuasan para pelanggan.",
   },
   {
     icon: Award,
-    title: "Our Values",
-    description: "Innovation, quality, and client success are at the heart of everything we do.",
+    title: "Misi",
+    description: "Meningkatkan kinerja operasional untuk memberikan layanan perdagangan internasional cepat dan andal.",
   },
 ]
 
@@ -36,17 +36,15 @@ export function About() {
 
           <div className="space-y-8 order-1 lg:order-2">
             <div className="space-y-4">
-              <span className="text-primary font-semibold text-lg tracking-wide">About Us</span>
+              <span className="text-primary font-semibold text-lg tracking-wide">Tentang Kami</span>
               <h2 className="text-4xl md:text-5xl font-bold leading-tight text-balance text-slate-900">
-                Building Your Next Digital Chapter Together
+                PT Jasindo Putra Perkasa
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Rifinity is a technology company focused on crafting innovative digital products. Our experienced team has
-                helped dozens of brands design and ship high‑performing web and mobile experiences since 2015.
+                Adalah perusahaan jasa ekspor dan impor yang menyediakan layanan pengiriman barang secara aman, efisien, dan terpercaya.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
-                We combine strategy, design, and engineering end‑to‑end to deliver digital experiences that are relevant,
-                scalable, and truly move the needle for your business.
+                Kami melayani Jasa Agency dan pengiriman international melalui udara dan laut dengan layanan door to door, port to door, jasa custom clearance, international Freight Forwarding, Transportation dan sub distributor. Didukung tim profesional, kami siap menjadi mitra logistik terbaik untuk kebutuhan bisnis Anda.
               </p>
             </div>
 

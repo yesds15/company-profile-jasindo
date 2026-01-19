@@ -6,11 +6,11 @@ import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Services", href: "#services" },
-  { name: "Portfolio", href: "#portfolio" },
-  { name: "Contact", href: "#contact" },
+  { name: "Beranda", href: "#home" },
+  { name: "Tentang", href: "#about" },
+  { name: "Pelayanan", href: "#services" },
+  { name: "Portofolio", href: "#portfolio" },
+  { name: "Kontak", href: "#contact" },
 ]
 
 
@@ -42,7 +42,7 @@ export function Navbar() {
               height={60} 
               className="object-contain bg-transparent" 
             /> */}
-            <span>Skyra Studio</span>
+            <span>PT Jasindo Putra Perkasa</span>
           </a>
 
           <div className="hidden md:flex items-center gap-8">
@@ -56,7 +56,7 @@ export function Navbar() {
               </a>
             ))}
             <Button asChild className="shadow-md shadow-blue-200/60">
-              <a href="#contact">Contact Us</a>
+              <a href="#contact">Hubungi Kami</a>
             </Button>
           </div>
 
@@ -79,7 +79,7 @@ export function Navbar() {
                 </a>
               ))}
               <Button className="w-full mt-2" asChild>
-                <a href="#contact">Contact Us</a>
+                <a href="#contact">Hubungi Kami</a>
               </Button>
             </div>
           </div>

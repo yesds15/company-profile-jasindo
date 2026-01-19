@@ -11,14 +11,14 @@ export function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "john.doe@example.com",
-      href: "mailto:john.doe@example.com",
+      value: "jasindocargo@gmail.com",
+      href: "mailto:jasindocargoputraperkasa@gmail.com",
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+62 812 3456 7890",
-      href: "tel:+6281234567890",
+      value: "+62 878 8047 5274",
+      href: "tel:+6287880475274",
     },
     {
       icon: MapPin,
@@ -71,7 +71,7 @@ export function Contact() {
                     <label htmlFor="email" className="text-sm font-medium">
                       Email
                     </label>
-                    <Input id="email" type="email" placeholder="email@example.com" />
+                    <Input id="email" type="email" placeholder="jasindocargoputraperkasa@gmail.com" />
                   </div>
                 </div>
                 <div className="space-y-2">
@@ -96,7 +96,7 @@ export function Contact() {
       </div>
 
       <footer className="mt-20 pt-8 border-t border-border text-center text-muted-foreground">
-        <p>&copy; 2025 John Doe. All rights reserved.</p>
+        <p>&copy; © 2026 Jasindo Putra Perkasa. All rights reserved.</p>
       </footer>
     </section>
   )

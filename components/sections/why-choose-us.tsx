@@ -5,13 +5,12 @@ export function WhyChooseUs() {
     <section className="py-20 px-6 md:px-20 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
-          <span className="text-primary font-semibold text-lg uppercase tracking-[0.3em]">Why Choose Us</span>
+          <span className="text-primary font-semibold text-lg uppercase tracking-[0.3em]">Mengapa Memilih Kami</span>
           <h2 className="text-4xl md:text-5xl font-bold text-balance text-slate-900">
-            Advantages that make Rifinity different
+            Keunggulan Yang Membedakan Kami
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            A set of principles that ensure every project runs transparently, predictably, and delivers measurable
-            business outcomes.
+            Prinsip layanan yang transparan, aman, dan efisien untuk memastikan setiap pengiriman mendukung pertumbuhan bisnis Anda secara nyata.
           </p>
         </div>
 
